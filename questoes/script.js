@@ -91,3 +91,19 @@ do {
 } while (number >= 1);
 
 console.log("FIM");
+
+// Questão 07
+console.log("== Questão 07 ==");
+function verificarIdade(idade) {
+  if (idade < 18) {
+    return "Menor de idade";
+  } else if (idade > 18 && idade < 60) {
+    return "Maior de idade";
+  } else {
+    return "Idoso";
+  }
+}
+
+console.log(verificarIdade(15));
+console.log(verificarIdade(25));
+console.log(verificarIdade(60));
