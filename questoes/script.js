@@ -79,3 +79,15 @@ while (numero <= 5) {
 }
 
 console.log("A soma total é:", soma);
+
+// Questão 06
+console.log("== Questão 06 ==");
+
+let number = 3;
+
+do {
+  console.log(number);
+  number--;
+} while (number >= 1);
+
+console.log("FIM");
