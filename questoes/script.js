@@ -66,3 +66,16 @@ console.log("== Questão 04 ==");
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+// Questão 05
+console.log("== Questão 05 ==");
+
+let numero = 1;
+let soma = 0;
+
+while (numero <= 5) {
+  soma += numero;
+  numero++;
+}
+
+console.log("A soma total é:", soma);
