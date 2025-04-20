@@ -117,3 +117,11 @@ let acessoPermitido = temSenhaCorreta || temBiometriaAutenticada;
 
 console.log("Acesso permitido?", acessoPermitido);
 console.log("Acesso negado?", !acessoPermitido);
+
+// Questão 09
+console.log("== Questão 09 ==");
+
+let tarefas = "lavar louça, limpar a casa, estudar, arrumar o quarto";
+tarefas = tarefas.split(",").join(" | ");
+console.log(tarefas);
+console.log(tarefas.includes("estudar"));
