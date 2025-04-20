@@ -125,3 +125,15 @@ let tarefas = "lavar louça, limpar a casa, estudar, arrumar o quarto";
 tarefas = tarefas.split(",").join(" | ");
 console.log(tarefas);
 console.log(tarefas.includes("estudar"));
+
+// Questão 10
+console.log("== Questão 10 ==");
+
+const numeroAleatorio = function () {
+  return Math.floor(Math.random() * (15 - 5 + 1)) + 5;
+};
+
+let raio = numeroAleatorio();
+const pi = Math.PI.toFixed(3);
+const areaCirculo = pi * Math.pow(raio, 2);
+console.log(`Área de um círculo com raio ${raio}: ${areaCirculo.toFixed(3)}`);
