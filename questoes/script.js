@@ -107,3 +107,13 @@ function verificarIdade(idade) {
 console.log(verificarIdade(15));
 console.log(verificarIdade(25));
 console.log(verificarIdade(60));
+
+// Questão 08
+console.log("== Questão 08 ==");
+let temSenhaCorreta = false;
+let temBiometriaAutenticada = false;
+
+let acessoPermitido = temSenhaCorreta || temBiometriaAutenticada;
+
+console.log("Acesso permitido?", acessoPermitido);
+console.log("Acesso negado?", !acessoPermitido);
