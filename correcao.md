@@ -38,4 +38,8 @@ Nota: 1
 Incorreto
 Nota: 0
 
-Total: 8
+Obs: Vou descontar 1 ponto, porque não foi criado o arquivo participantes.md, que foi explicitamente pedido nas regras.
+Vocês colocaram os participantes no README.md, o que não está correto, seguir as regras é fundamental para atender o que foi
+solicitado em um projeto real.
+
+Total: 7
